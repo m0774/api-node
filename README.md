@@ -1,19 +1,9 @@
-# 📊 API de Monitoramento com Prometheus e Grafana
+#  API de Monitoramento com Prometheus e Grafana
 
 Este projeto é uma API Node.js simples que expõe métricas personalizadas para serem coletadas pelo **Prometheus**, e visualizadas no **Grafana**.
 
-## 🧱 Tecnologias
 
-- Node.js
-- Express
-- prom-client
-- Prometheus (via Docker)
-- Grafana (via Docker)
-- Docker Compose
-
----
-
-## 🚀 Como rodar o projeto
+##  Como rodar o projeto
 
 ### 1. Instale as dependências da API
 
@@ -28,10 +18,10 @@ node src/index.js
 ```
 
 A API ficará disponível em:  
-📍 `http://localhost:3001`
+ `http://localhost:3001`
 
 O endpoint de métricas estará em:  
-📍 `http://localhost:3001/metrics`
+ `http://localhost:3001/metrics`
 
 ---
 
@@ -48,7 +38,7 @@ docker-compose up -d
 
 ---
 
-## 📡 Fluxo das Métricas
+##  Fluxo das Métricas
 
 ```
 API Node.js (/metrics) --> Prometheus --> Grafana
@@ -60,7 +50,7 @@ API Node.js (/metrics) --> Prometheus --> Grafana
 
 ---
 
-## 📦 Estrutura do projeto
+##  Estrutura do projeto
 
 ```
 api-node/
@@ -75,18 +65,15 @@ api-node/
 
 ---
 
-## 💡 Exemplos de Métricas
+##  Exemplos de Métricas
 
 - `api_requisicoes_total`: total de requisições recebidas pela API
 
 ---
 
-## ✨ Próximos passos
+##  Próximos passos
 
 - Adicionar mais métricas (tempo de resposta, erros, etc)
 - Criar dashboards personalizados no Grafana
 - Exportar métricas de outras aplicações
 
----
-
-Feito com 💻 por Gabriel
