@@ -18,10 +18,10 @@ node src/index.js
 ```
 
 A API ficará disponível em:  
- `http://localhost:3001`
+ `http://localhost:3000`
 
 O endpoint de métricas estará em:  
- `http://localhost:3001/metrics`
+ `http://localhost:3000/metrics`
 
 ---
 
@@ -32,7 +32,7 @@ docker-compose up -d
 ```
 
 - Prometheus: http://localhost:9090  
-- Grafana: http://localhost:3000  
+- Grafana: http://localhost:3001  
   - Usuário: `admin`  
   - Senha: `admin`
 

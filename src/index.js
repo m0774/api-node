@@ -10,7 +10,7 @@ client.collectDefaultMetrics({ register });
 
 // Exemplos de métricas customizadas
 const counter = new client.Counter({
-  name: 'api_requests_total',
+  name: 'http_requests_total',
   help: 'Número total de requisições na API',
 });
 register.registerMetric(counter);
